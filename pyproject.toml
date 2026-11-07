@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "factor-model"
+version = "0.1.0"
+description = "HCCT Group – Cross-sectional equity factor research: IC analysis, quintile long/short, Fama-French attribution."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Harry CHU", email = "257962672+hcctbusiness@users.noreply.github.com" }]
+maintainers = [{ name = "HCCT Group" }]
+keywords = ["quant", "factor investing", "equity", "information coefficient", "fama-french"]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "matplotlib>=3.7",
+  "quantcore[data] @ git+https://github.com/hcctbusiness/QuantCore.git",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/hcctbusiness/Equity-Factor-Model"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
