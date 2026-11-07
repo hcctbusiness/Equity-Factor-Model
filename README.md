@@ -138,7 +138,7 @@ tests/               # offline unit tests (z-score, IC, quintiles, dollar neutra
 | [Macro-AI-Copilot](https://github.com/hcctbusiness/Macro-AI-Copilot) | Macro regime detection → multi-asset allocation |
 | **Equity Factor Model** | Cross-sectional factors, long/short, IC analysis (this repo) |
 | [HK Stat-Arb](https://github.com/hcctbusiness/HK-Stat-Arb) | Cointegration pairs and A/H-share premium |
-| Multi-Asset Trend Following | Futures-style CTA with vol targeting |
+| [Multi-Asset Trend Following](https://github.com/hcctbusiness/Multi-Asset-Trend-Following) | Futures-style CTA with vol targeting |
 | ML Alpha Lab | Purged CV, meta-labelling, gradient boosting |
 | Portfolio & Risk Engine | HRP, risk parity, Black-Litterman, VaR |
 
